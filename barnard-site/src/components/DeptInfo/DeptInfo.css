@@ -1,8 +1,8 @@
 .DeptInfoHolder {
-  margin-left: 3%;
-  width: 52%;
+  margin: 3% 2%;
 }
 .DeptInfo {
   font-family: "Montserrat", sans-serif;
   font-size: 23.75px;
+  display: inline;
 }

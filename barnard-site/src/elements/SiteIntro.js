@@ -3,10 +3,15 @@ import Title from "../components/Title/Title.js";
 import SubTitle from "../components/SubTitle/SubTitle.js";
 import Description from "../components/Description/Description.js";
 
+const introStyle = {
+  marginTop: "5%",
+  marginBottom: "23%"
+};
+
 class SiteIntro extends Component {
   render() {
     return (
-      <div className="SiteIntro">
+      <div className="SiteIntro" style={introStyle}>
         <Title>Barnard College</Title>
         <SubTitle>Instructional Media and Technology Services</SubTitle>
         <Description>
